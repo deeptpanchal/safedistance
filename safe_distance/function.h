@@ -3,9 +3,9 @@
 void pinmode()
 {
   pinMode(Stopping_relay, OUTPUT);
-//  pinMode(Mot_in_1, OUTPUT);
-//  pinMode(Mot_in_2, OUTPUT);
-//  //pinMode(Mot_en, OUTPUT);
+  //  pinMode(Mot_in_1, OUTPUT);
+  //  pinMode(Mot_in_2, OUTPUT);
+  //  //pinMode(Mot_en, OUTPUT);
   pinMode(echo, INPUT);
   pinMode(trig, OUTPUT);
   pinMode(LED, OUTPUT);
@@ -51,7 +51,7 @@ void Warning()
 void Normal()
 {
   //Motor_Clock();
-  digitalWrite(Stopping_relay,HIGH);
+  digitalWrite(Stopping_relay, HIGH);
   lcd.display();
   digitalWrite(alarm, LOW);
   digitalWrite(LED, LOW);
@@ -105,7 +105,7 @@ void Lcd2()
 
 void calculateSafeDistance()
 {
-//  Read = analogRead(Analog_speed);
+  //  Read = analogRead(Analog_speed);
   Speed = 54;//map(Read, 0, 1023, 0, 90);
   S = (Speed * 5) / 18;
   Safe_distance = (S / 2) * ((S / 4) + 1);
