@@ -10,3 +10,9 @@
 # Software Used:
 1. Arduino IDE (https://www.arduino.cc/en/Main/Software)
 2. Processing (https://processing.org/download/)
+
+# Setup
+![](Photos/setup.png)
+
+# Output
+![](Photos/output.png)
