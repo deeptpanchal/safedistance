@@ -11,8 +11,8 @@
 1. Arduino IDE (https://www.arduino.cc/en/Main/Software)
 2. Processing (https://processing.org/download/)
 
-# Setup
+# Setup:
 ![](Photos/setup.png)
 
-# Output
+# Output:
 ![](Photos/output.png)
